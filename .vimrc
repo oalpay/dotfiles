@@ -18,8 +18,8 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 'altercation/vim-colors-solarized'
-
+" Plugin 'altercation/vim-colors-solarized'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,7 +39,7 @@ filetype plugin indent on    " required
 set number
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 let g:airline_solarized_bg='dark'
 set clipboard=unnamed
 set autoread
